@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Регистрация — LostGameShop</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container header__inner">
+                <a class="header__logo" href="index.html">
+                    <img src="media/logo.svg" alt="Логотип">
+                    <span>LostGameShop</span>
+                </a>
+                <div class="header__actions">
+                    <a class="button button--ghost" href="index.html">На главную</a>
+                    <a class="button button--primary" href="login.html">Войти</a>
+                </div></div></header><main class="auth">
+        <div class="container">
+            <section class="auth__card">
+                <h1 class="auth__title">Создать аккаунт</h1>
+                <p class="auth__text">Заполните обязательные поля, чтобы зарегистрироваться.</p>
+                <form class="form" action="#" method="post">
+                    <label class="form__field">
+                        <span class="form__label">E-mail</span>
+                        <input class="form__input" type="email" name="email" required>
+                    </label>
+                    <div class="form__grid">
+                        <label class="form__field">
+                            <span class="form__label">Фамилия</span>
+                            <input class="form__input" type="text" name="surname" required>
+                        </label>
+                        <label class="form__field">
+                            <span class="form__label">Имя</span>
+                            <input class="form__input" type="text" name="name" required>
+                        </label></div><div class="form__grid">
+                    <label class="form__field">
+                        <span class="form__label">Дата рождения</span>
+                        <input class="form__input" type="date" name="birthdate" required>
+                    </label>
+                    <label class="form__field">
+                        <span class="form__label">Номер телефона</span>
+                        <input class="form__input" type="tel" name="phone" placeholder="+7 999 000-00-00" required>
+                    </label>
+                    </div>
+                    <div class="form__grid">
+                        <label class="form__field">
+                            <span class="form__label">Пароль</span>
+                            <input class="form__input" type="password" name="password" minlength="6" required>
+                        </label>
+                        <label class="form__field">
+                            <span class="form__label">Повтор пароля</span>
+                            <input class="form__input" type="password" name="password_repeat" minlength="6" required>
+                        </label>
+                    </div>
+                    <label class="form__check">
+                        <input type="checkbox" name="personal_data" required>
+                        <span>Я согласен(на) на обработку персональных данных.</span>
+                    </label>
+                    <button class="button button--primary button--wide" type="submit">Зарегистрироваться</button>
+                </form></section></div></main></body></html>
